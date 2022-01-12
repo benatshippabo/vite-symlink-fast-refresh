@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     https: true,
   },
-  // resolve: {
-  //   preserveSymlinks: true,
-  // },
+  resolve: {
+    preserveSymlinks: true,
+  },
 });
