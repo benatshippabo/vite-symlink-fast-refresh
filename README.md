@@ -1,5 +1,7 @@
 # Minimal example for monorepo `resolve.preserveSymlinks: true` Vite bug
 
+https://github.com/vitejs/vite/issues/6479
+
 ## Reproduction
 
 1. `yarn && yarn dev`
