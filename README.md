@@ -2,7 +2,7 @@
 
 ## Reproduction
 
-1. `yarn && yarn start`
+1. `yarn && yarn dev`
 2. edit `packages/another-package/index.tsx` by changing `Hey!!` to `Hey!`
 3. notice the app doesn't update
 4. comment out `resolve.preserveSymlinks` in `packages/app/vite.config.ts`
