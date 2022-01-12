@@ -1,0 +1,20 @@
+{
+  "name": "@bug/vite-symlink-fast-refresh",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "yarn workspace @bug/app vite",
+    "build": "yarn workspace @bug/app vite build",
+    "preview": "yarn workspace @bug/app vite preview"
+  },
+  "dependencies": {
+    "@bug/another-package": "workspace:*",
+    "@bug/app": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "packageManager": "yarn@3.1.1",
+  "workspaces": [
+    "packages/*"
+  ]
+}
